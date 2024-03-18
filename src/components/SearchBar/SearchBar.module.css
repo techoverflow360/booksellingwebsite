@@ -1,0 +1,25 @@
+.header2{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 34px;
+}
+.form{
+    display: flex;
+}
+.input{
+    border-radius: 5%;
+    width: 300px;
+    height: 40px;
+}
+.searchbutton{
+    width: 50px;
+    height: 46px;
+}
+.filterbutton{
+    width: 50px;
+    height: 46px;
+    /* padding-left: 30px; */
+}
+img{
+    width: 30px;
+}

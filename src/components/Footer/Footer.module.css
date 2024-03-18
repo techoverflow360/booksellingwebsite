@@ -1,0 +1,29 @@
+.footer{
+    background-color: rgb(141, 18, 18);
+}
+.footername{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+}
+.footername img{
+    width: 60px;
+}
+.footername p{
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: 700;
+    color: white;
+    font-family:'Courier New', Courier, monospace ;
+}
+.footerdata{
+    display: flex;
+    color: white;
+}
+.left, .right   {
+    width: 50%;
+    text-align: center;
+    padding-bottom: 50px;
+}
