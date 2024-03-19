@@ -25,7 +25,7 @@ const SearchBar = () => {
                 <div><input type="text" className={classes.input} name="input" onChange={searchTextChangeHandler} required placeholder="type to search ... "/></div>
                 <button type="submit" className={classes.searchbutton}><img src={search} /></button>
             </form>
-            <button onClick={filterhandler} className={classes.filterbutton}><img src={filter} /></button>
+            {/* <button onClick={filterhandler} className={classes.filterbutton}><img src={filter} /></button> */}
         </div>
     )
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import classes from './TopHeader.module.css';
 import SearchBar from '../SearchBar/SearchBar';
 import companyimage from '../../assets/companyname.png';
@@ -8,10 +9,10 @@ import profile from '../../assets/user.png';
 
 const TopHeader = () => {
     let element = <div className={classes.header3}>
-        <div className={classes.headerbuttons}>
+        <Link to='/sell'><div className={classes.headerbuttons}>
             <div className={classes.buttonicon}><img src={sell} alt="sell"/></div>
             <div className={classes.buttontext}><p>Sell</p></div>
-        </div>
+        </div></Link>
         <div className={classes.headerbuttons}>
             <div className={classes.buttonicon}><img src={cart} alt="cart"/></div>
             <div className={classes.buttontext}><p>Cart</p></div>
@@ -23,10 +24,10 @@ const TopHeader = () => {
     </div>
     return (
         <div className={classes.header}>
-            <div className={classes.header1}>
+            <Link to='/'><div className={classes.header1}>
                 <div className={classes.companyimage}><img src={companyimage} alt="company name"/></div>
                 <div className={classes.companyname}><p>Blue Bag</p></div>
-            </div>
+            </div></Link>
                 <SearchBar />
             {element}
         </div>
