@@ -1,0 +1,33 @@
+.card{
+    border: 1px solid red;
+    width: 17%;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #300202;
+}
+.cardimage{
+    width: 100%;
+}
+.cardimage img{
+    width: 100%;
+    height: auto;
+}
+.title{
+    padding-left: 20px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+.parent{
+    display: flex;
+    padding-left: 20px;
+    color: white;
+    font-size: 17px;
+}
+.leftbottom{
+    display: flex;
+}
+.left{
+    width: 60%;
+}

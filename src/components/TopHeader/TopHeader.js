@@ -22,6 +22,11 @@ const TopHeader = () => {
             <div className={classes.buttontext}><p>User</p></div>
         </div>
     </div>
+
+    element = <div className={classes.altheader3}>
+        <button className={classes.signup}>Sign up</button>
+        <button className={classes.signin}>Sign in</button>
+    </div>
     return (
         <div className={classes.header}>
             <Link to='/'><div className={classes.header1}>

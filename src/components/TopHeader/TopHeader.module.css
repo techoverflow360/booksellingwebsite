@@ -44,3 +44,19 @@
     color: white;
 
 }
+
+.altheader3{
+    width: 20%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup, .signin{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #0b0b27;
+    color: white;
+    border-radius: 10%;
+    font-size: 20px;
+}    
