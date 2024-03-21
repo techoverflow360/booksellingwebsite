@@ -7,7 +7,7 @@ import cart from '../../assets/cart.png';
 import sell from '../../assets/sell.png';
 import profile from '../../assets/user.png';
 
-const TopHeader = () => {
+const TopHeader = (props) => {
     let element = <div className={classes.header3}>
         <Link to='/sell'><div className={classes.headerbuttons}>
             <div className={classes.buttonicon}><img src={sell} alt="sell"/></div>
@@ -24,8 +24,8 @@ const TopHeader = () => {
     </div>
 
     element = <div className={classes.altheader3}>
-        <button className={classes.signup}>Sign up</button>
-        <button className={classes.signin}>Sign in</button>
+        <button className={classes.signup} onClick={props.signupOpen}>Sign up</button>
+        <button className={classes.signin} onClick={props.loginOpen} >Sign in</button>
     </div>
     return (
         <div className={classes.header}>
